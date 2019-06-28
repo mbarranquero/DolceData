@@ -1,0 +1,35 @@
+/*svg, div {
+  border: solid black 1px;
+}*/
+
+body {
+  display: flex;
+
+  flex-flow: row wrap;
+}
+
+#canvas {
+  justify-content: flex-end;
+
+  align-items: flex-start;
+}
+
+#graph {
+  justify-content: flex-start;
+
+  align-items: flex-start;
+}
+
+#fiche {
+  justify-content: space-between;
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: flex-end;
+}
+
+#legend {
+  
+}
